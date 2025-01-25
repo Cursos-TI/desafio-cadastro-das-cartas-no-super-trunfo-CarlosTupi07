@@ -7,6 +7,32 @@
 //Teste larissa
 
 int main() {
+    int populacao; //declaração de variáveis//
+    int pontos;
+    float area;
+    float pib;
+
+
+    pritf("Bem-vindos ao super trunfos\n");// printf para exibir na tela, a sintaxe do printf (''texto com formatação''', variavel1, variavel2, ...); //
+
+
+    print("Digite a populaçao\n");
+    scanf("%d", &populacao); // scanf para recolher informações do usuario, a sintaxe do scanf (''formato'', &variavel); //
+
+    prinf("Digite quantidade de pontos turisticos\n");
+    scanf("%d", &pontos); // %d: Imprime um inteiro no formato decimal.//
+
+    printf("Digite a area km²\n");
+    scanf("%f", &area); //%f: Imprime um número de ponto flutuante no formato padrão.//
+
+    printf("Digite o pib\n");
+    scanf("%f", &pib);
+
+     //Exibindo os resultados//
+    printf("  Populacao: %d - Pontos Turisticos: %d \n", populacao, pontos);
+    printf("Area por km²: %f - PIB: %f \n", area, pib);
+
+    
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
